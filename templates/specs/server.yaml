@@ -1,0 +1,16 @@
+apiVersion: vcon/v1
+kind: server
+metadata:
+  name: {{name}}
+  slug: {{slug}}
+spec:
+  provider: unknown
+  role: shared
+  os: ubuntu
+  access:
+    ssh_host: ""
+    ssh_user: "root"
+  network:
+    public_ip: null
+    private_ip: null
+  hardening_level: baseline

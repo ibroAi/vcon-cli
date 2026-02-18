@@ -1,0 +1,10 @@
+apiVersion: vcon/v1
+kind: project
+metadata:
+  name: Core Infra
+  slug: core-infra
+spec:
+  mode: code
+  envs: ["dev","acc","prod"]
+  canon_root: "/ai"
+  backlog_path: "/ai/backlog.md"

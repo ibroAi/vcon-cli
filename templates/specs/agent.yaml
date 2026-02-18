@@ -1,0 +1,10 @@
+apiVersion: vcon/v1
+kind: agent
+metadata:
+  name: {{name}}
+  slug: {{slug}}
+spec:
+  runtime: docker
+  model: null
+  endpoints: []
+  capabilities: ["exec"]

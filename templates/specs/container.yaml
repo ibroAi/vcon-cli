@@ -1,0 +1,12 @@
+apiVersion: vcon/v1
+kind: container
+metadata:
+  name: {{name}}
+  slug: {{slug}}
+spec:
+  image: ""
+  tag: "latest"
+  compose_project: null
+  ports: []
+  volumes: []
+  env_refs: []

@@ -1,0 +1,10 @@
+apiVersion: vcon/v1
+kind: project
+metadata:
+  name: {{name}}
+  slug: {{slug}}
+spec:
+  mode: code
+  envs: ["dev","acc","prod"]
+  canon_root: "/ai"
+  backlog_path: "/ai/backlog.md"

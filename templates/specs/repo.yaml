@@ -1,0 +1,12 @@
+apiVersion: vcon/v1
+kind: repo
+metadata:
+  name: {{name}}
+  slug: {{slug}}
+spec:
+  provider: github
+  full_name: ""
+  default_branch: "main"
+  visibility: private
+  languages: []
+  clone_url: null
